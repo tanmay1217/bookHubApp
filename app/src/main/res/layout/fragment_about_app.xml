@@ -1,10 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout
+    <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".fragment.AboutAppFragment" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="13dp"
+            android:background="#b8ffcb">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q1. From where I can download this app?"
+                android:textStyle="bold"
+                android:textColor="#f04705"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can download this app from google playstore."
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="___________________________________"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q2. Why is Tasty Orders doing this?"
+                android:textStyle="bold"
+                android:textColor="#f04705"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" At Tasty Orders we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. Tasty Orders Packaging Assist is to take care of all your packaging needs."
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="___________________________________"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q3. How are you guys are different?"
+                android:textStyle="bold"
+                android:textColor="#f04705"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Best products - We only list the products which have passed our tests and are the best suitable for delivery."
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="___________________________________"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q4. What to do if I forgot password?"
+                android:textStyle="bold"
+                android:textColor="#f04705"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please click on the Forgot Password form the Login Screen and you will receive the  OPT in your registered e_mail and submit it to reset the password"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="___________________________________"
+                android:textSize="20sp"/>
 
 
-    </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
